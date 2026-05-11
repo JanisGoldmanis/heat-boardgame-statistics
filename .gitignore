@@ -1,2 +1,5 @@
-race_data/
+# JetBrains
 .idea/
+
+# Project data
+race_data/
