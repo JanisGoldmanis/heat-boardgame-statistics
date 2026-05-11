@@ -9,6 +9,9 @@ pages = {
     "Tournaments": [
         st.Page("pages/tournaments.py", title="Tournaments"),
     ],
+    "Upgrades": [
+        st.Page("pages/upgrades.py", title="Upgrades"),
+    ]
 }
 
 pg = st.navigation(pages)
