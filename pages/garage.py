@@ -28,12 +28,12 @@ for racer in data["racers"]:
     idx = 0
     for i in upgrades:
         cols[idx].image(
-            f"assets/upgrades/upgrade-{i + 1}.png",
+            f"assets/upgrades/upgrade-{i}.png",
         )
         idx += 1
 
     for i in sponsorships:
         cols[idx].image(
-            f"assets/sponsorships/sponsorship-{i + 1}.png",
+            f"assets/sponsorships/sponsorship-{i}.png",
         )
         idx += 1
