@@ -26,13 +26,13 @@ for racer in data["racers"]:
     cols = st.columns(cards_per_row, gap="small")
 
     idx = 0
-    for i in range(len(upgrades)):
+    for i in upgrades:
         cols[idx].image(
             f"assets/upgrades/upgrade-{i + 1}.png",
         )
         idx += 1
 
-    for i in range(len(sponsorships)):
+    for i in sponsorships:
         cols[idx].image(
             f"assets/sponsorships/sponsorship-{i + 1}.png",
         )
