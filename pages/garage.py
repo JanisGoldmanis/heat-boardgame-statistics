@@ -18,7 +18,7 @@ cards_per_row = st.slider(
 )
 
 for racer in data["racers"]:
-    st.write(f"{racer["name"]} - {racer["color"]}")
+    st.write(f"{racer['name']} - {racer['color']}")
 
     upgrades = racer["upgrades"]
     sponsorships = racer["sponsorships"]
