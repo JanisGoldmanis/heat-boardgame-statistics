@@ -39,3 +39,6 @@ for racer in data["racers"]:
             f"assets/sponsorships/sponsorship-{i}.png",
         )
         idx += 1
+
+
+# commit test
