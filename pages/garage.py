@@ -2,6 +2,8 @@ import streamlit as st
 import json
 
 
+st.set_page_config(layout="wide")
+
 garage_data_file = 'race_data/garage.json'
 
 players = {}
