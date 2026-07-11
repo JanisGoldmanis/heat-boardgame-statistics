@@ -8,9 +8,11 @@ pages = {
     ],
     "Tournaments": [
         st.Page("pages/tournaments.py", title="Tournaments"),
+        st.Page("pages/garage.py", title="Garage"),
     ],
     "Upgrades": [
         st.Page("pages/upgrades.py", title="Upgrades"),
+        st.Page("pages/sponsorships.py", title="Sponsorships"),
     ]
 }
 
