@@ -78,7 +78,7 @@ for row in range(rows):
 
                 st.image(
                     f"assets/upgrades/upgrade-{number}.png",
-                    use_container_width=True
+                    width='content'
                 )
 
                 card_index += 1

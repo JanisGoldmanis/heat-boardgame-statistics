@@ -62,7 +62,7 @@ with st.expander("Select Drivers"):
                 drivers.append(driver)
 
         form = st.form("New Driver")
-        driver = form.text_input(label="", value="Driver Name")
+        driver = form.text_input(label="Name", value="Driver Name")
         if form.form_submit_button():
             drivers.append(driver)
 
@@ -122,7 +122,7 @@ for row in range(rows):
 
                 st.image(
                     f"assets/upgrades/upgrade-{number}.png",
-                    use_container_width=True
+                    width='content'
                 )
 
                 card_index += 1
