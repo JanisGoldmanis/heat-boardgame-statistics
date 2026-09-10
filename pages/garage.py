@@ -30,7 +30,7 @@ taken_upgrades = []
 with st.expander("See current cards"):
 
     for racer in data["racers"]:
-        st.write(f"{racer['name']} - {racer['color']}")
+        st.write(f"{racer['name']}")
 
         upgrades = racer["upgrades"]
         sponsorships = racer["sponsorships"]
